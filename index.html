@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+
+
+    <title>restuarent</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+    <template id="retter_template">
+        <section class="col-xs-12 col-sm-6 col-md-4">
+            <h2 class="data_navn">NAVN</h2>
+            <br>
+            <h5>Pris: <span  class="data_pris">PRIS</span></h5>
+
+            <img class="data_billede img-responsive" src="" alt="">
+
+            <br>
+
+            <button type="button" class="btn btn-success modalknap" data-toggle="modal" data-target="#myModal"> Se mere info
+            </button>
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria- labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Mere info</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p><img src="" alt="" class="data_billede">
+                                <br> langbeskrivelse: <span class="data_langbeskrivelse">langbeskrivelse</span>
+                                <br> udsolgtStatus: <span class="data_udsolgtStatus">udsolgtStatus</span>
+                                <br> rabatPris: <span class="data_rabatPris">rabatPris</span>
+                                <br> vegetarEgnethed: <span class="data_vegetarEgnethed">vegetarEgnethed</span>
+
+
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </template>
+
+    <div class="container-fluid">
+        <section class="row">
+            <header class="col-xs12"></header>
+            <div class="col-xs12"> <img src="img/large/baggrundsbillede.png" alt=""></div>
+        </section>
+    </div>
+
+    <div class="container produktliste">
+        <div class="row"></div>
+    </div>
+    <!--<div class="container">
+
+
+                    <section class="row">
+                        <article class="col-xs-6 col-xs-offset-5">
+                            <h1>Menu</h1></article>
+                        <br>
+                        <article class="col-xs-12">
+                            <h3>Hovedretter</h3></article>
+
+
+
+                    </section>
+                </div>
+            </div>
+
+
+
+
+    </div>-->
+
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="restuarent.js"></script>
+
+
+</body>
+
+</html>

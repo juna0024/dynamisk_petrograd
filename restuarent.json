@@ -1,0 +1,48 @@
+{
+    "retter": [
+
+
+        {
+            "id": 1,
+            "navn": "Bøf med grønt",
+            "billede": "/img/small/boef-sm.jpg",
+            "langbeskrivelse": "Diplomatiet har haft mange udfordringer i USSR. Derfor blev der sørget godt for dem, og som nogen af de få, fik diplomaterne mange bøffer under den kolde krig. Diplomat-bøffen med grillede grøntsager og koldpresset olie er af ypperste kvalitet - kødet kommer fra udsultede ungkalve i Viktoriagrad.",
+            "pris": 179,
+            "udsolgtStatus": 0,
+            "rabat-pris": 20,
+            "vegetar-egnethed": 0
+
+},
+
+        {
+            "id": 2,
+            "navn": "Russisk tapas",
+            "billede": "/img/small/russisktapas-sm.jpg",
+            "langbeskrivelse": "Der er blevet sagt meget om det russiske køkken, men godt har sjældent været et af tillægsordene. Russisk tapas er dog lækkert. Inspireret af duften af Italien får du her tørret bøffelkød, hvidt brød og tomater badet i koldpresset olie.",
+            "pris": 199,
+            "udsolgtStatus": 0,
+            "rabat-pris": 20,
+            "vegetar-egnethed": 0
+
+},
+        {
+            "id": 3,
+            "navn": "Bulgarsk bondesuppe",
+            "billede": "/img/small/bulgarskbondesuppe-sm.jpg",
+            "langbeskrivelse": "Da Caucesku var i færd med at skrive sit navn med højhuse, var han nødt til at give håndværkerne solid kost, så de kunne arbejde 18 timer i døgnet, 7 dage om ugen: Bulgarsk bondesuppe. Suppen består af alt det bedste fra Bulgarien.",
+            "pris": 99,
+            "udsolgtStatus": 0,
+            "rabat-pris": 20,
+            "vegetar-egnethed": 0
+
+}
+
+
+
+
+
+
+
+
+        ]
+}
